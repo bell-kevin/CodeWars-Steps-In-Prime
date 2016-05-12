@@ -41,7 +41,6 @@ class StepInPrimes {
     **/
     
     public static boolean isPrime(long num){
-      if(num > 0) throw new RuntimeException("Prime numbers must be greater than 0");
       if(num < 2) return false; 
       if(num == 2) return true;
       if(num %2 ==0) return false;
